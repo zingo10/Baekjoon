@@ -12,9 +12,13 @@ public class Main{
             if(H<0){
                 H=23;
             }
-           System.out.print(H + " " + M);
+            System.out.print(H);
+            System.out.print(" ");
+            System.out.print(M);
         } else {
-           System.out.print(H + " " + (M-45));
+            System.out.print(H);
+            System.out.print(" ");
+            System.out.print(M-45);
         }
     }
 }
